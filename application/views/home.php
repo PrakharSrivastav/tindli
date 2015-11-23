@@ -13,9 +13,9 @@
 
   <!-- Include required stylesheets below -->
 	<!-- Bootstrap default css-->
-	<link href="<?=base_url()?>css/bootstrap.min.css" rel="stylesheet">
+	<link href="/tindli/frontend/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- User defined css -->
-	<link href="<?=base_url()?>css/style.css" rel="stylesheet">
+	<link href="/tindli/frontend/css/app.css" rel="stylesheet">
   
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,18 +30,18 @@
   	
     <!-- bootstrap container -->
     <div class="container">
-  		<h1 class="text-center"> Hello, Angular!" </h1>
+  		<h1 class="text-center"> Hello, Angular! No this is not angular ....." </h1>
   	</div>
     
     <!-- include required javascript libraries below -->
     <!-- JQuery -->
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  	<script src="/tindli/frontend/node_modules/jquery/dist/jquery.min.js"></script>
   	<!-- Bootstrap -->
-    <script src="<?=base_url()?>js/bootstrap.min.js"></script>
+    <script src="/tindli/frontend/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   	<!-- AngularJS -->
-    <script src="<?=base_url()?>js/angular.min.js"></script>
+    <script src="/tindli/frontend/node_modules/angular/angular.min.js"></script>
   	<!-- application specific js file -->
-    <script src="<?=base_url()?>js/app.js"></script>
+    <script src="/tindli/frontend/js/app.js"></script>
   
   </body>
   </html>
